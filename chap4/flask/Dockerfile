@@ -9,7 +9,7 @@ RUN pip install --upgrade pip
 
 # イメージのビルド時にコマンド実行
 # 「Werkzeug」のバージョンアップに対応
-RUN pip install flask==2.3.0
+RUN pip install flask==2.3.1
 
 # コンテナの起動時にコマンドを実行
 # --debugオプションを指定してデバッグモードで起動
